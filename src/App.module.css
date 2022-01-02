@@ -1,0 +1,12 @@
+.mainStyle {
+  display: flex; flex-direction: row;
+  background-color: rgb(230, 230, 210);
+}
+
+.sideArea {
+  width: 20%;
+}
+
+.pageArea {
+  width: 80%;
+}

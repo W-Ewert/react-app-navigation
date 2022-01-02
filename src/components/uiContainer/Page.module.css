@@ -1,0 +1,12 @@
+.page {
+  background-color: rgb(159, 231, 159);
+  min-height: 90vh;
+  margin: 5px;
+  padding: 10px;
+  border: solid green 2px;
+  border-radius: 10px;
+}
+
+p {
+  margin: 0px;
+}

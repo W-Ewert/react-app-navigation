@@ -1,0 +1,30 @@
+.label {
+  background-color: greenyellow;
+}
+
+.labelContent {
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  margin: 5px;
+  font-size: large;
+  font-style: oblique;
+}
+
+.icon {
+  background-color: magenta;
+  margin-right: 25px;
+  border: solid black 2px;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.line {
+  background-color: black;
+  height: 5px;
+  margin: 0px;
+}
