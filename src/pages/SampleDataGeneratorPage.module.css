@@ -1,0 +1,42 @@
+.page {
+
+}
+
+.header {
+  text-align: center;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.contentElement {
+  background-color: cornflowerblue;
+  width: 49%;
+  padding: 5px;
+}
+
+.input {
+  border: solid black 1px;
+  border-radius: 5px;
+  margin: 5px 0px;
+  padding: 5px;
+  background-color: blueviolet;
+}
+
+table{
+  border: solid black 1px;
+  width: 100%;
+  background-color: blueviolet;
+}
+
+th, td {
+  border: solid black 1px;
+  height: 50px;
+}
+
+td {
+  padding-left: 10px;
+}

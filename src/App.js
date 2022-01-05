@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import classes from './App.module.css'
 
 import MainNavigation from './components/layout/MainNavigation';
-import Page01 from './pages/page01';
+import Page01 from './pages/SampleDataGeneratorPage';
 import Page02 from './pages/page02';
 import Page03 from './pages/page03';
 import HeaderLine from './components/layout/HeaderLine';

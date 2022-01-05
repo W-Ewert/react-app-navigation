@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import Label from './mainNavigationItems/Label'
+import NavigationItem from './mainNavigationItems/NavigationItem';
 import classes from './MainNavigation.module.css'
 
 function MainNavigation() {
@@ -8,17 +9,19 @@ function MainNavigation() {
       <header>
         <Label />
         <nav>
-          <ul>
-            <li>
-              <Link to='/'>Page01</Link>
-            </li>
-            <li>
-              <Link to='/page02'>Page02</Link>
-            </li>
-            <li>
-              <Link to='/page03'>Page03</Link>
-            </li>
-          </ul>
+          <div>
+            <Link className={classes.link} to='/'>
+              <NavigationItem name="Sample Data Generator" />
+            </Link>
+
+            <Link className={classes.link} to='/page02'>
+              <NavigationItem name="Investment"/>
+            </Link>
+
+            <Link className={classes.link} to='/page03'>
+              <NavigationItem name="in development"/>
+            </Link>
+          </div>
         </nav>
         </header>
     </div>
